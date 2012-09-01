@@ -1,0 +1,12 @@
+{
+  "name": "New Tabs Always Last",
+  "version": "0.1",
+  "icons": { "16": "icon.png",
+             "32": "icon.png",
+             "48": "icon.png",
+          "128": "icon.png" },
+  "background_page": "background.html",
+  "permissions": [
+    "tabs"
+  ]
+}

@@ -1,0 +1,12 @@
+<html>
+  <script>
+  	function onmake(tab) {
+			var moveobj = new Object();
+			moveobj.index = 9999;
+			chrome.tabs.move(tab.id,moveobj);
+
+    }
+
+    chrome.tabs.onCreated.addListener(onmake);
+  </script>
+</html>
